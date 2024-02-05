@@ -1,0 +1,19 @@
+name: Run hyperexecute script
+
+on:
+  push:
+    branches:
+      - main  # You can change this to your main branch
+
+jobs:
+  run-script:
+    runs-on: windows-latest  # Use windows-latest for Windows runner
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run hyperexecute script
+      run: |
+        curl -o hyperexecute.exe https://downloads.lambdatest.com/hyperexecute/windows/hyperexecute.exe
+        ./hyperexecute.exe --user shubhamr --key dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh --config yaml_files/iphone/iphone_one.yaml
