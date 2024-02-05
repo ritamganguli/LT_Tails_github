@@ -1,0 +1,149 @@
+version: "0.2"
+user: qachamp
+key: tWQVarNtZUjpqm8Aly0otJ9mVeHw0rjD9BXRV6ijInnfzjzCn3
+testSuites: []
+pre: [python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org, pip3 install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt --cache-dir pip_cache]
+preDirectives:
+    commands: [python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org, pip3 install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt --cache-dir pip_cache]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+env:
+    SELENIUM_REMOTE_URL: http://@mobile-hub.lambdatest.com/wd/hub
+    TARGET_OS: Linux
+    TEST_FY_URL: http://frontyard.tails-nonprod.com
+    TEST_URL: https://web.tails-nonprod.com
+jobLabel:
+    - 02-01-2024 16:01:54
+    - Thursday
+    - iphone_dog_one
+runson: linux
+autosplit: true
+concurrency: 2
+testDiscovery:
+    args:
+        featureFilePaths: features
+        frameWork: java
+        specificTags:
+            - '@nightly_iphone_one'
+    command: /runner/_work/selenium/selenium/.hyperexecute/snooper  --targetOs=linux --featureFilePaths=features --frameWork=java --specificTags=@nightly_iphone_one
+    mode: static
+    type: automatic
+testDiscoveryResult:
+    - features/logged_in_features/gb_logged_in/12_gb_manage_flea_tick_worm_subscriptions.feature:10
+    - features/logged_in_features/gb_logged_in/16_gb_manage_user_account.feature:13
+    - features/logged_in_features/gb_logged_in/16_gb_manage_user_account.feature:20
+    - features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:8
+    - features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:66
+    - features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:165
+testRunnerCommand: behave $test -v -k -Dbrowser=iphone
+globalTimeout: 150
+tunnelOpts:
+    args:
+        - --mitm
+        - --expose data:frontyard.tails-nonprod.com:80
+        - --shared-tunnel
+        - --verbose
+    global: true
+    testsPerTunnel: 10
+tunnelNames:
+    - DVYvQGXfXZaaRETw
+testSuiteTimeout: 150
+testSuiteStep: 150
+cacheDirectories:
+    - pip_cache
+cacheKey: '{{ checksum "requirements.txt" }}'
+retryOnFailure: true
+maxRetries: 1
+jobID: 3409df54-31c2-418f-a07f-147237d2912e
+mergeArtifacts: true
+codeDirectory: selenium
+report: true
+partialReports:
+    type: json
+    location: /
+    frameworkName: selenium
+    email:
+        to: []
+        metaInfo: []
+        linkValidity: 0
+runtime:
+    - language: python
+      version: "3.9"
+      addons: []
+      opts: {}
+framework:
+    name: appium
+    flags: []
+    discoveryFlags: []
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: false
+    args:
+        appPath: ""
+        testSuitePath: ""
+        xcTestPlanPath: ""
+        shards:
+            mappings: []
+        filters:
+            attributes: []
+        devices: []
+        deviceSelectionStrategy: ""
+        appId: Sample_App_ID
+        testSuiteAppId: ""
+        xcTestPlanId: ""
+        video: true
+        deviceLog: true
+        buildName: ""
+        reservation: true
+        skipXMLOnRun: false
+        skipInstall: false
+        disableReleaseDevice: false
+        platformName: ""
+        isRealMobile: false
+        avoidAppLaunch: false
+        queueTimeout: 0
+        uninstallPreviousBuild: false
+        language: ""
+        locale: ""
+        preservedDevice: false
+        fixedIP: ""
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+    baseCommand: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+testType: ios/appium
+triggerSource: github_actions
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+sourcePayload:
+    verifySSL: true
+collectLocalGitData: true
+dynamicAllocation: false
+appium: false
+platformConfig: null
+differentialUpload:
+    enabled: false
+    ttlHours: null
+    forcedDisabled: false
+project:
+    id: ""
+    name: ""
+    type: default
+meta: {}
+alwaysRunPostSteps: false
+errorCategorizedOnFailureOnly: false

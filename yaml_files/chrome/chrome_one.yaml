@@ -1,0 +1,62 @@
+version: 0.1
+#Total job timeout; max 150mins, if exceeded kills entire job
+globalTimeout: 150
+#Suite timeout; max 150mins, if suite exceeds time limit, kills it
+testSuiteTimeout: 150
+#Step timeout; max 150mins, if a specific step exceeds the time limit, kills that step
+testSuiteStep: 150
+
+runson: win
+
+autosplit: true
+retryOnFailure: true
+
+maxRetries: 1
+concurrency: 2
+
+env:
+#  PAT: ${{ .secrets.testKey }}
+  TARGET_OS: Windows 10
+  TEST_URL: https://web.tails-nonprod.com
+  TEST_FY_URL: http://frontyard.tails-nonprod.com
+  SELENIUM_REMOTE_URL: http://@mobile-hub.lambdatest.com/wd/hub
+
+
+cacheKey: '{{ checksum "requirements.txt" }}'
+cacheDirectories:
+  - pip_cache
+pre:
+  - python3.exe -m pip install --upgrade pip --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org
+  - pip3 install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt --cache-dir pip_cache
+
+report: true
+partialReports:
+    type: json
+    location: /
+    frameworkName: selenium
+    
+testDiscovery:
+  type: automatic
+  mode: static
+  args:
+    featureFilePaths: features
+    frameWork: java
+    specificTags: ["@nightly_chrome_one", "@nightly_android_one"]
+
+
+# Reports are generated in the pretty JSON format
+testRunnerCommand: behave -f json.pretty -o reports/test_report.json $test -v -k -Dbrowser=chrome
+tunnel: true
+tunnelOpts:
+  global: true
+  args: ["--mitm","--expose data:frontyard.tails-nonprod.com:80", "--verbose"]
+  
+runtime:
+  language: python
+  version: "3.9"
+
+# parameters
+DATE: datetime.now().strftime("%d-%m-%y")
+DAY: date.today()
+jobLabel: ['${DATE}', '${DAY}','chrome_dog_one']
+   

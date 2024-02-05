@@ -1,0 +1,154 @@
+alwaysRunPostSteps: false
+appium: false
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+cacheDirectories:
+    - pip_cache
+cacheKey: '{{ checksum "requirements.txt" }}'
+captureScreenRecordingForScenarios: false
+codeDirectory: tails_github
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 2
+cypress: false
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+env:
+    SELENIUM_REMOTE_URL: http://@mobile-hub.lambdatest.com/wd/hub
+    TARGET_OS: Linux
+    TEST_FY_URL: http://frontyard.tails-nonprod.com
+    TEST_URL: https://web.tails-nonprod.com
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: Sample_App_ID
+        appPath: ""
+        avoidAppLaunch: false
+        buildName: ""
+        deviceLog: true
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        platformName: ""
+        preservedDevice: false
+        queueTimeout: 0
+        reservation: true
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipXMLOnRun: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        video: true
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: appium
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalTimeout: 150
+jobID: bc111cee-93cd-452a-9996-0d537931fa41
+jobLabel:
+    - 02-05-2024 23:42:38
+    - Monday
+    - iphone_dog_one
+key: dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh
+maxRetries: 1
+maxRetriesPreSteps: 0
+mergeArtifacts: true
+meta: {}
+partialReports:
+    email:
+        linkValidity: 0
+        metaInfo: []
+        to: []
+    frameworkName: selenium
+    location: /
+    type: json
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org
+    - pip3 install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt --cache-dir pip_cache
+preDirectives:
+    commands:
+        - python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org
+        - pip3 install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt --cache-dir pip_cache
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: ""
+    name: ""
+    type: default
+report: true
+retryOnFailure: true
+runson: linux
+runtime:
+    language: python
+    version: "3.9"
+    addons: []
+    opts: {}
+sourcePayload:
+    verifySSL: true
+testDiscovery:
+    args:
+        featureFilePaths: features
+        frameWork: java
+        specificTags:
+            - '@nightly_iphone_one'
+    command: C:\Final\tails_github\.hyperexecute\snooper.exe  --targetOs=linux --featureFilePaths=features --frameWork=java --specificTags=@nightly_iphone_one
+    mode: static
+    type: automatic
+testDiscoveryResult:
+    - features/logged_in_features/gb_logged_in/12_gb_manage_flea_tick_worm_subscriptions.feature:10
+    - features/logged_in_features/gb_logged_in/16_gb_manage_user_account.feature:13
+    - features/logged_in_features/gb_logged_in/16_gb_manage_user_account.feature:20
+    - features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:8
+    - features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:66
+    - features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:165
+testRunnerCommand: behave $test -v -k -Dbrowser=iphone
+testSuiteStep: 150
+testSuiteTimeout: 150
+testSuites: []
+testType: ios/appium
+triggerMode: false
+tunnelNames:
+    - vsdaextOvyKSCLkT
+tunnelOpts:
+    args:
+        - --mitm
+        - --expose data:frontyard.tails-nonprod.com:80
+        - --shared-tunnel
+        - --verbose
+    global: true
+    testsPerTunnel: 10
+user: shubhamr
+version: "0.2"

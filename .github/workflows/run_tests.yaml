@@ -1,0 +1,10 @@
+name: Run Tests
+# Only run one deploy at a time for a given branch and commit
+concurrency: ${{ github.ref }}
+on:
+  workflow_dispatch:  
+
+jobs:
+  selenium_tests:
+    name: Run Selenium tests
+    uses: tailsdotcom/selenium/.github/workflows/reusable_workflow.yaml@main

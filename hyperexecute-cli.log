@@ -1,0 +1,152 @@
+{"level":"debug","time":"2024-02-05T23:34:40.050+0530","caller":"cmd/bin.go:103","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-02-05T23:34:41.042+0530","caller":"cmd/bin.go:112","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.154} "}
+{"level":"error","time":"2024-02-05T23:34:41.046+0530","caller":"globalconfigvalidator/setup.go:44","msg":"2024-02-05T23:34:40+05:30    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username.    Unable to parse LT username. Use --user cli flag or LT_USERNAME environment variable"}
+{"level":"error","time":"2024-02-05T23:34:41.046+0530","caller":"core/lifecycle.go:78","msg":"2024-02-05T23:34:40+05:30    error    \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"debug","time":"2024-02-05T23:34:41.048+0530","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-02-05T23:34:41.048+0530","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-02-05T23:34:41.048+0530","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-02-05T23:34:41.048+0530","caller":"cmd/bin.go:310","msg":"Exiting application due to error \u001b[91mERR::NO::USER\u001b[0m     Unable to find LT username."}
+{"level":"debug","time":"2024-02-05T23:38:36.227+0530","caller":"cmd/bin.go:103","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-02-05T23:38:36.778+0530","caller":"cmd/bin.go:112","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.154} "}
+{"level":"debug","time":"2024-02-05T23:38:39.333+0530","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-02-05T23:38:39.335+0530","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-02-05T23:38:39.335+0530","caller":"yamlconfigmanager/setup.go:498","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/iphone_one.yaml"}
+{"level":"error","time":"2024-02-05T23:38:39.335+0530","caller":"core/lifecycle.go:124","msg":"2024-02-05T23:38:36+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml/iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:38:39.336+0530","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-02-05T23:38:39.336+0530","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-02-05T23:38:39.336+0530","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-02-05T23:38:39.337+0530","caller":"cmd/bin.go:310","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml/iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:39:09.530+0530","caller":"cmd/bin.go:103","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-02-05T23:39:10.058+0530","caller":"cmd/bin.go:112","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.154} "}
+{"level":"debug","time":"2024-02-05T23:39:12.385+0530","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-02-05T23:39:12.385+0530","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-02-05T23:39:12.385+0530","caller":"yamlconfigmanager/setup.go:498","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml\\iphone_one.yaml"}
+{"level":"error","time":"2024-02-05T23:39:12.386+0530","caller":"core/lifecycle.go:124","msg":"2024-02-05T23:39:09+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:39:12.387+0530","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-02-05T23:39:12.387+0530","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-02-05T23:39:12.387+0530","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-02-05T23:39:12.387+0530","caller":"cmd/bin.go:310","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:39:27.867+0530","caller":"cmd/bin.go:103","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-02-05T23:39:28.366+0530","caller":"cmd/bin.go:112","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.154} "}
+{"level":"debug","time":"2024-02-05T23:39:30.734+0530","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-02-05T23:39:30.736+0530","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-02-05T23:39:30.736+0530","caller":"yamlconfigmanager/setup.go:498","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/iphone/iphone_one.yaml"}
+{"level":"error","time":"2024-02-05T23:39:30.736+0530","caller":"core/lifecycle.go:124","msg":"2024-02-05T23:39:27+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml/iphone/iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:39:30.738+0530","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-02-05T23:39:30.738+0530","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-02-05T23:39:30.738+0530","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-02-05T23:39:30.738+0530","caller":"cmd/bin.go:310","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml/iphone/iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:39:44.632+0530","caller":"cmd/bin.go:103","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-02-05T23:39:45.055+0530","caller":"cmd/bin.go:112","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.154} "}
+{"level":"debug","time":"2024-02-05T23:39:47.046+0530","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-02-05T23:39:47.048+0530","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-02-05T23:39:47.048+0530","caller":"yamlconfigmanager/setup.go:498","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml\\iphone\\iphone_one.yaml"}
+{"level":"error","time":"2024-02-05T23:39:47.049+0530","caller":"core/lifecycle.go:124","msg":"2024-02-05T23:39:44+05:30    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\iphone\\iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:39:47.050+0530","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-02-05T23:39:47.050+0530","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-02-05T23:39:47.050+0530","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-02-05T23:39:47.051+0530","caller":"cmd/bin.go:310","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location yaml\\iphone\\iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:40:07.702+0530","caller":"cmd/bin.go:103","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-02-05T23:40:08.731+0530","caller":"cmd/bin.go:112","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.154} "}
+{"level":"debug","time":"2024-02-05T23:40:10.754+0530","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-02-05T23:40:10.755+0530","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-02-05T23:40:10.756+0530","caller":"yamlconfigmanager/setup.go:498","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml_files\\iphone\\iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:40:10.756+0530","caller":"yamlconfigmanager/setup.go:85","msg":"using hyperexecute config from : yaml_files\\iphone\\iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:40:11.191+0530","caller":"yamlconfigmanager/setup.go:1956","msg":"Autodetecting test type in files of path : C:\\Final\\tails_github"}
+{"level":"debug","time":"2024-02-05T23:40:11.193+0530","caller":"yamlconfigmanager/setup.go:377","msg":"Tunnel: true"}
+{"level":"info","time":"2024-02-05T23:40:11.193+0530","caller":"models/HypertestYamlConfig.go:589","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.194+0530","caller":"models/HypertestYamlConfig.go:393","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.195+0530","caller":"models/HypertestYamlConfig.go:453","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.195+0530","caller":"models/HypertestYamlConfig.go:461","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.196+0530","caller":"models/HypertestYamlConfig.go:478","msg":"Framework:"}
+{"level":"info","time":"2024-02-05T23:40:11.197+0530","caller":"models/HypertestYamlConfig.go:479","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.198+0530","caller":"models/HypertestYamlConfig.go:511","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.198+0530","caller":"models/HypertestYamlConfig.go:522","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.199+0530","caller":"models/HypertestYamlConfig.go:554","msg":"Cache Directories:"}
+{"level":"info","time":"2024-02-05T23:40:11.200+0530","caller":"models/HypertestYamlConfig.go:556","msg":"    \u001b[36mpip_cache\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:40:11.201+0530","caller":"models/HypertestYamlConfig.go:602","msg":""}
+{"level":"debug","time":"2024-02-05T23:40:11.201+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-02-05T23:40:11.202+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-02-05T23:40:11.204+0530","caller":"snoopermanager/setup.go:135","msg":"Downloading test discovery dependency binary ..................."}
+{"level":"debug","time":"2024-02-05T23:40:11.204+0530","caller":"snoopermanager/setup.go:136","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/windows/snooper.exe"}
+{"level":"debug","time":"2024-02-05T23:40:12.832+0530","caller":"snoopermanager/setup.go:168","msg":"Downloading test discovery dependency binary"}
+{"level":"debug","time":"2024-02-05T23:40:14.649+0530","caller":"cmd/bin.go:279","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-02-05T23:40:14.650+0530","caller":"cmd/bin.go:280","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2024-02-05T23:42:38.142+0530","caller":"cmd/bin.go:103","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-02-05T23:42:38.749+0530","caller":"cmd/bin.go:112","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.154} "}
+{"level":"debug","time":"2024-02-05T23:42:40.916+0530","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-02-05T23:42:40.919+0530","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-02-05T23:42:40.919+0530","caller":"yamlconfigmanager/setup.go:498","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml_files/iphone/iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:42:40.920+0530","caller":"yamlconfigmanager/setup.go:85","msg":"using hyperexecute config from : yaml_files/iphone/iphone_one.yaml"}
+{"level":"debug","time":"2024-02-05T23:42:41.411+0530","caller":"yamlconfigmanager/setup.go:1956","msg":"Autodetecting test type in files of path : C:\\Final\\tails_github"}
+{"level":"debug","time":"2024-02-05T23:42:41.412+0530","caller":"yamlconfigmanager/setup.go:377","msg":"Tunnel: true"}
+{"level":"info","time":"2024-02-05T23:42:41.412+0530","caller":"models/HypertestYamlConfig.go:589","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.413+0530","caller":"models/HypertestYamlConfig.go:393","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.413+0530","caller":"models/HypertestYamlConfig.go:453","msg":"Runson:    \u001b[36mios\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.414+0530","caller":"models/HypertestYamlConfig.go:461","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.414+0530","caller":"models/HypertestYamlConfig.go:478","msg":"Framework:"}
+{"level":"info","time":"2024-02-05T23:42:41.414+0530","caller":"models/HypertestYamlConfig.go:479","msg":"    Name:    \u001b[36mappium\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.415+0530","caller":"models/HypertestYamlConfig.go:511","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.415+0530","caller":"models/HypertestYamlConfig.go:522","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.415+0530","caller":"models/HypertestYamlConfig.go:554","msg":"Cache Directories:"}
+{"level":"info","time":"2024-02-05T23:42:41.416+0530","caller":"models/HypertestYamlConfig.go:556","msg":"    \u001b[36mpip_cache\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:41.416+0530","caller":"models/HypertestYamlConfig.go:602","msg":""}
+{"level":"debug","time":"2024-02-05T23:42:41.416+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-02-05T23:42:41.417+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-02-05T23:42:41.922+0530","caller":"snoopermanager/setup.go:195","msg":"upstream version: 1.21.0 "}
+{"level":"debug","time":"2024-02-05T23:42:42.144+0530","caller":"snoopermanager/setup.go:199","msg":"Found corrupted test discovery dependency binary, removing and re-downloading it..."}
+{"level":"debug","time":"2024-02-05T23:42:42.158+0530","caller":"snoopermanager/setup.go:135","msg":"Downloading test discovery dependency binary ..................."}
+{"level":"debug","time":"2024-02-05T23:42:42.158+0530","caller":"snoopermanager/setup.go:136","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/windows/snooper.exe"}
+{"level":"debug","time":"2024-02-05T23:42:43.080+0530","caller":"snoopermanager/setup.go:168","msg":"Downloading test discovery dependency binary"}
+{"level":"info","time":"2024-02-05T23:42:57.980+0530","caller":"snoopermanager/setup.go:181","msg":"\u001b[91m\u001b[32m✔\u001b[0m Test discovery dependency binary binary downloaded successfully\n\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:57.980+0530","caller":"appium/appium.go:114","msg":"Using app with unique id - Sample_App_ID"}
+{"level":"debug","time":"2024-02-05T23:42:57.980+0530","caller":"testdiscoverer/discoverer.go:159","msg":"Running discovery command C:\\Final\\tails_github\\.hyperexecute\\snooper.exe --featureFilePaths=features --frameWork=java --specificTags=@nightly_iphone_one"}
+{"level":"debug","time":"2024-02-05T23:42:57.980+0530","caller":"testdiscoverer/discoverer.go:74","msg":"Test Discovery Command: C:\\Final\\tails_github\\.hyperexecute\\snooper.exe  --targetOs=linux --featureFilePaths=features --frameWork=java --specificTags=@nightly_iphone_one"}
+{"level":"info","time":"2024-02-05T23:42:58.632+0530","caller":"testdiscoverer/discoverer.go:89","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 6\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:58.633+0530","caller":"testdiscoverer/discoverer.go:90","msg":"    \u001b[2mfeatures/logged_in_features/gb_logged_in/12_gb_manage_flea_tick_worm_subscriptions.feature:10\u001b[0m\n    \u001b[2mfeatures/logged_in_features/gb_logged_in/16_gb_manage_user_account.feature:13\u001b[0m\n    \u001b[2mfeatures/logged_in_features/gb_logged_in/16_gb_manage_user_account.feature:20\u001b[0m\n    \u001b[2mfeatures/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:8\u001b[0m\n    \u001b[2mfeatures/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:66\u001b[0m\n    \u001b[2mfeatures/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:165\u001b[0m\n"}
+{"level":"info","time":"2024-02-05T23:42:58.635+0530","caller":"core/lifecycle.go:306","msg":"Total tests discovered: 6"}
+{"level":"debug","time":"2024-02-05T23:42:59.532+0530","caller":"core/lifecycle.go:404","msg":"Job ID: bc111cee-93cd-452a-9996-0d537931fa41"}
+{"level":"debug","time":"2024-02-05T23:42:59.533+0530","caller":"core/lifecycle.go:410","msg":"User has provided ios/appium as test type for the job with ID bc111cee-93cd-452a-9996-0d537931fa41"}
+{"level":"info","time":"2024-02-05T23:42:59.533+0530","caller":"core/lifecycle.go:434","msg":"\u001b[102m\u001b[1m\u001b[30mTunnel: ON\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-02-05T23:42:59.533+0530","caller":"core/lifecycle.go:467","msg":"Starting 1 tunnels instances"}
+{"level":"debug","time":"2024-02-05T23:42:59.533+0530","caller":"tunnelmanager/setup.go:68","msg":"Download tunnel binary from https://downloads.hyperexecute.cloud/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-02-05T23:42:59.533+0530","caller":"tunnelmanager/setup.go:69","msg":"Tunnel binary download path C:\\Final\\tails_github/LT.exe"}
+{"level":"debug","time":"2024-02-05T23:43:04.774+0530","caller":"core/lifecycle.go:490","msg":"Waiting for tunnels to start"}
+{"level":"info","time":"2024-02-05T23:43:04.774+0530","caller":"core/lifecycle.go:491","msg":"Tunnel started successfully"}
+{"level":"debug","time":"2024-02-05T23:43:04.778+0530","caller":"tunnelmanager/setup.go:307","msg":"Creating tunnel instance vsdaextOvyKSCLkT #1, with params [--user shubhamr --key dl8Y8as59i1YyGZZUeLF897aCFvIDmaKkUU1e6RgBmlgMLIIhh --callbackURL http://127.0.0.1:56559/started --env ht-prod --tunnelName vsdaextOvyKSCLkT --retry-on-failure --mitm --expose data:frontyard.tails-nonprod.com:80 --shared-tunnel --verbose --infoAPIPort 56560 --logFile C:\\Final\\tails_github\\logs\\tunnel\\vsdaextOvyKSCLkT-1.log]"}
+{"level":"debug","time":"2024-02-05T23:43:11.394+0530","caller":"tunnelmanager/setup.go:174","msg":"Running new tunnel instance vsdaextOvyKSCLkT"}
+{"level":"debug","time":"2024-02-05T23:43:11.396+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-02-05T23:43:11.396+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Final\\tails_github"}
+{"level":"debug","time":"2024-02-05T23:43:11.527+0530","caller":"core/lifecycle.go:539","msg":"Zip file size: 773.30 kB"}
+{"level":"debug","time":"2024-02-05T23:43:11.527+0530","caller":"core/lifecycle.go:549","msg":"Archive location: C:\\Final\\tails_github\\hyperexecute-code-bc111cee-93cd-452a-9996-0d537931fa41.zip\n"}
+{"level":"debug","time":"2024-02-05T23:43:11.528+0530","caller":"storage/azure.go:55","msg":"Payload size: 773.30 kB, source path C:\\Final\\tails_github\\hyperexecute-code-bc111cee-93cd-452a-9996-0d537931fa41.zip"}
+{"level":"debug","time":"2024-02-05T23:43:11.528+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2024-02-05T23:43:12.111+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2024-02-05T23:43:18.405+0530","caller":"utils/azcopy.go:118","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2024-02-05T23:43:18.405+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"debug","time":"2024-02-05T23:43:24.046+0530","caller":"receptionmanager/setup.go:217","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-02-05T23:43:24.047+0530","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : C:\\Final\\tails_github\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-02-05T23:43:24.048+0530","caller":"storage/azure.go:55","msg":"Payload size: 4.44 kB, source path C:\\Final\\tails_github\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-02-05T23:43:29.246+0530","caller":"receptionmanager/setup.go:170","msg":"Uploading cucumber_context : C:\\Final\\tails_github\\cucumber_context.json"}
+{"level":"debug","time":"2024-02-05T23:43:29.246+0530","caller":"storage/azure.go:55","msg":"Payload size: 10.42 kB, source path C:\\Final\\tails_github\\cucumber_context.json"}
+{"level":"debug","time":"2024-02-05T23:43:34.058+0530","caller":"core/lifecycle.go:577","msg":"Successfully deleted code archive: C:\\Final\\tails_github\\hyperexecute-code-bc111cee-93cd-452a-9996-0d537931fa41.zip\n"}
+{"level":"info","time":"2024-02-05T23:43:40.320+0530","caller":"jobmanager/setup.go:129","msg":"Job bc111cee-93cd-452a-9996-0d537931fa41 has started RUNNING"}
+{"level":"info","time":"2024-02-05T23:43:40.321+0530","caller":"jobmanager/setup.go:372","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=bc111cee-93cd-452a-9996-0d537931fa41\n"}
+{"level":"debug","time":"2024-02-05T23:43:40.321+0530","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-02-05T23:43:40.321+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 5a09bef9-1388-4829-b4c7-71ba9148f734"}
+{"level":"debug","time":"2024-02-05T23:43:40.321+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 5a09bef9-1388-4829-b4c7-71ba9148f734"}
+{"level":"debug","time":"2024-02-05T23:43:40.321+0530","caller":"jobmanager/setup.go:149","msg":"Task id: 74473fbb-7984-4cf0-a27b-66e93067832f"}
+{"level":"debug","time":"2024-02-05T23:43:40.321+0530","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 74473fbb-7984-4cf0-a27b-66e93067832f"}
+{"level":"debug","time":"2024-02-05T23:47:43.434+0530","caller":"cmd/bin.go:279","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-02-05T23:47:43.434+0530","caller":"cmd/bin.go:280","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2024-02-05T23:47:43.434+0530","caller":"cmd/bin.go:286","msg":"Sending request to abort job"}
+{"level":"debug","time":"2024-02-05T23:47:44.011+0530","caller":"cmd/bin.go:295","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2024-02-05T23:47:44.011+0530","caller":"core/lifecycle.go:740","msg":"Context canceled"}
+{"level":"info","time":"2024-02-05T23:47:44.011+0530","caller":"core/lifecycle.go:743","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2024-02-05T23:47:44.012+0530","caller":"jobmanager/setup.go:372","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=bc111cee-93cd-452a-9996-0d537931fa41\n"}
+{"level":"debug","time":"2024-02-05T23:47:44.014+0530","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-02-05T23:47:44.014+0530","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"error","time":"2024-02-05T23:48:09.244+0530","caller":"tunnelmanager/setup.go:125","msg":"2024-02-05T23:42:38+05:30    error    ERR:HTTP:HOST     Facing problem in connecting with LocalHost :: http://127.0.0.1 - prod     Delete \"http://127.0.0.1:56560/api/v1.0/stop\": DELETE http://127.0.0.1:56560/api/v1.0/stop giving up after 5 attempt(s): Delete \"http://127.0.0.1:56560/api/v1.0/stop\": dial tcp 127.0.0.1:56560: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"debug","time":"2024-02-05T23:48:09.244+0530","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-02-05T23:48:09.244+0530","caller":"cmd/bin.go:271","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-02-05T23:48:09.245+0530","caller":"cmd/bin.go:299","msg":"Go routines exited within timeout"}

@@ -1,0 +1,67 @@
+version: 0.2
+#Total job timeout; max 150mins, if exceeded kills entire job
+globalTimeout: 150
+#Suite timeout; max 150mins, if suite exceeds time limit, kills it
+testSuiteTimeout: 150
+#Step timeout; max 150mins, if a specific step exceeds the time limit, kills that step
+testSuiteStep: 150
+
+runson: ios
+
+autosplit: true
+retryOnFailure: true
+
+maxRetries: 1
+concurrency: 2
+
+env:
+  TARGET_OS: Linux
+  TEST_URL: https://web.tails-nonprod.com
+  TEST_FY_URL: http://frontyard.tails-nonprod.com
+  SELENIUM_REMOTE_URL: http://@mobile-hub.lambdatest.com/wd/hub
+
+
+cacheKey: '{{ checksum "requirements.txt" }}'
+cacheDirectories:
+  - pip_cache
+pre:
+  - python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org
+  - pip3 install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org -r requirements.txt --cache-dir pip_cache
+
+mergeArtifacts: true
+
+# Details about HTML Formatter at https://pypi.org/project/behave-html-formatter/
+report: true
+partialReports:
+    type: json
+    location: /
+    frameworkName: selenium
+
+testDiscovery:
+  type: automatic
+  mode: static
+  args:
+    featureFilePaths: features
+    frameWork: java
+    specificTags: ["@nightly_iphone_one"]
+
+# Reports are generated in the pretty JSON format
+testRunnerCommand: behave $test -v -k -Dbrowser=iphone
+
+framework:
+    name: appium
+    args:
+        appId: "Sample_App_ID"
+tunnel: true
+tunnelOpts:
+  global: true
+  args: ["--mitm","--expose data:frontyard.tails-nonprod.com:80", "--shared-tunnel", "--verbose"]
+
+runtime: 
+  language: python
+  version: "3.9"
+
+# parameters
+DATE: datetime.now().strftime("%d-%m-%y")
+DAY: date.today()
+jobLabel: ['${DATE}', '${DAY}','iphone_dog_one']

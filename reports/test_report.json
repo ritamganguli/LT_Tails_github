@@ -1,0 +1,1636 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:9",
+      "name": "206 incomplete and resume signup - DE signup",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "value": "Germany"
+              }
+            ],
+            "location": "features/steps/discovery_home_page_steps.py:8"
+          },
+          "name": "on homepage and \"Germany\" country",
+          "result": {
+            "duration": 81.38816714286804,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "value": "dogone"
+              },
+              {
+                "value": "2"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "Beagle"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:12"
+          },
+          "name": "Add \"dogone\" information age \"2\" years \"5\" months male neutered purebreed \"Beagle\"",
+          "result": {
+            "duration": 30.340749979019165,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 12.58650016784668,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:13",
+          "match": {
+            "arguments": [
+              {
+                "value": "15"
+              }
+            ],
+            "location": "features/steps/signup_weight_page_steps.py:23"
+          },
+          "name": "Status no working dog weight \"15\"",
+          "result": {
+            "duration": 28.523690938949585,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:151"
+          },
+          "name": "Health Ingredients no issues",
+          "result": {
+            "duration": 16.95533800125122,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:15",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_diet_page_steps.py:31"
+          },
+          "name": "Current diet dry food",
+          "result": {
+            "duration": 1.3001377582550049,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:16",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:8"
+          },
+          "name": "Current food select no brand",
+          "result": {
+            "duration": 2.4483530521392822,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:17",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:16"
+          },
+          "name": "Select flavour anything",
+          "result": {
+            "duration": 7.189862966537476,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:18",
+          "match": {
+            "arguments": [
+              {
+                "value": "Germany"
+              }
+            ],
+            "location": "features/steps/signup_email_page_steps.py:11"
+          },
+          "name": "complete signup with email \"Germany\"",
+          "result": {
+            "duration": 196.70739197731018,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "germany_resume",
+        "nightly_chrome_six"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/signup_features/21_germany_signup_box_flow_file_one.feature:4",
+  "name": "Germany Signup",
+  "status": "passed",
+  "tags": [
+    "growth_regression",
+    "germany_no_checkout_feature",
+    "signup"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:41",
+      "name": "608 partial - NE signup",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:42",
+          "match": {
+            "arguments": [
+              {
+                "value": "Netherlands"
+              }
+            ],
+            "location": "features/steps/discovery_home_page_steps.py:8"
+          },
+          "name": "on homepage and \"Netherlands\" country",
+          "result": {
+            "duration": 46.359654903411865,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:43",
+          "match": {
+            "arguments": [
+              {
+                "value": "dogone"
+              },
+              {
+                "value": "2"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "Beagle"
+              },
+              {
+                "value": "Bulldog"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:53"
+          },
+          "name": "Add \"dogone\" information age \"2\" years \"5\" months male neutered two crossbreed \"Beagle\" and \"Bulldog\"",
+          "result": {
+            "duration": 38.78659200668335,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:44",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 12.716233968734741,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:45",
+          "match": {
+            "arguments": [
+              {
+                "value": "15"
+              }
+            ],
+            "location": "features/steps/signup_weight_page_steps.py:23"
+          },
+          "name": "Status no working dog weight \"15\"",
+          "result": {
+            "duration": 23.10132598876953,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:46",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:151"
+          },
+          "name": "Health Ingredients no issues",
+          "result": {
+            "duration": 11.564649820327759,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:47",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_diet_page_steps.py:31"
+          },
+          "name": "Current diet dry food",
+          "result": {
+            "duration": 1.2677769660949707,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:48",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:8"
+          },
+          "name": "Current food select no brand",
+          "result": {
+            "duration": 1.145097017288208,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:49",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:16"
+          },
+          "name": "Select flavour anything",
+          "result": {
+            "duration": 6.548694849014282,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:50",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/navigation_page_steps.py:33"
+          },
+          "name": "Navigate to Home logo",
+          "result": {
+            "duration": 15.149724006652832,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:51",
+          "match": {
+            "arguments": [
+              {
+                "value": "Dogone"
+              }
+            ],
+            "location": "features/steps/navigation_page_steps.py:61"
+          },
+          "name": "can Continue signup \"Dogone\"",
+          "result": {
+            "duration": 25.231618881225586,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "netherlands_partial_crossbreed",
+        "nightly_chrome_six",
+        "roe"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/signup_features/22_netherlands_signup_box_flow_file_one.feature:4",
+  "name": "Netherlands Signup",
+  "status": "passed",
+  "tags": [
+    "growth_regression",
+    "netherlands_no_checkout",
+    "signup"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:30",
+      "name": "603 Stripe with billing address - NE signup",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:31",
+          "match": {
+            "arguments": [
+              {
+                "value": "Netherlands"
+              }
+            ],
+            "location": "features/steps/discovery_home_page_steps.py:8"
+          },
+          "name": "on homepage and \"Netherlands\" country",
+          "result": {
+            "duration": 31.747835874557495,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:32",
+          "match": {
+            "arguments": [
+              {
+                "value": "dogone"
+              },
+              {
+                "value": "2"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "Beagle"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:12"
+          },
+          "name": "Add \"dogone\" information age \"2\" years \"5\" months male neutered purebreed \"Beagle\"",
+          "result": {
+            "duration": 19.80496311187744,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:33",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 12.072388887405396,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:34",
+          "match": {
+            "arguments": [
+              {
+                "value": "15"
+              }
+            ],
+            "location": "features/steps/signup_weight_page_steps.py:23"
+          },
+          "name": "Status no working dog weight \"15\"",
+          "result": {
+            "duration": 22.630633115768433,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:35",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:151"
+          },
+          "name": "Health Ingredients no issues",
+          "result": {
+            "duration": 9.812266111373901,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:36",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/pipeline_steps.py:139"
+          },
+          "name": "Current diet select dry and wet food pipeline",
+          "result": {
+            "duration": 10.32780909538269,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:37",
+          "match": {
+            "arguments": [
+              {
+                "value": "Purina"
+              },
+              {
+                "value": "Mini can (156g)"
+              }
+            ],
+            "location": "features/steps/pipeline_steps.py:150"
+          },
+          "name": "Current food dry \"Purina\" selected wet \"Mini can (156g)\" pipeline",
+          "result": {
+            "duration": 5.2737321853637695,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:38",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/pipeline_steps.py:168"
+          },
+          "name": "Select flavour anything pipeline",
+          "result": {
+            "duration": 1.0708186626434326,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:39",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/pipeline_steps.py:177"
+          },
+          "name": "Complete email page pipeline",
+          "result": {
+            "duration": 6.821900844573975,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:40",
+          "match": {
+            "arguments": [
+              {
+                "value": "\"Netherlands\""
+              }
+            ],
+            "location": "features/steps/signup_project_box_steps.py:39"
+          },
+          "name": "select dry and wet Project Box in \"Netherlands\"",
+          "result": {
+            "duration": 44.6097309589386,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:41",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_project_box_steps.py:74"
+          },
+          "name": "Select no treats Project Box",
+          "result": {
+            "duration": 30.644673109054565,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:42",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_pricing_page_steps.py:93"
+          },
+          "name": "Pricing continue with card",
+          "result": {
+            "duration": 11.046531915664673,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:43",
+          "match": {
+            "arguments": [
+              {
+                "value": "Netherlands"
+              }
+            ],
+            "location": "features/steps/signup_checkout_address_page_steps.py:133"
+          },
+          "name": "Checkout international address for \"Netherlands\" future delivery date",
+          "result": {
+            "duration": 60.16159105300903,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:44",
+          "match": {
+            "arguments": [
+              {
+                "value": "NL"
+              }
+            ],
+            "location": "features/steps/signup_payment_billing_address_page_steps.py:25"
+          },
+          "name": "Checkout with stripe billing address with manual address input \"NL\"",
+          "result": {
+            "duration": 36.22025489807129,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:45",
+          "match": {
+            "arguments": [
+              {
+                "value": "Ga verder naar mijn dashboard"
+              }
+            ],
+            "location": "features/steps/loggedin_dashboard_steps.py:29"
+          },
+          "name": "Signup completed and dutch \"Ga verder naar mijn dashboard\" display",
+          "result": {
+            "duration": 6.048080921173096,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "netherlands_stripe_billing",
+        "roe",
+        "nightly_chrome_six"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/signup_features/22_netherlands_signup_box_flow_file_two.feature:4",
+  "name": "Netherlands Signup",
+  "status": "passed",
+  "tags": [
+    "growth_regression",
+    "netherlands_checkout",
+    "signup"
+  ]
+},
+
+{
+  "description": [
+    "This feature needs to be ran on Staging due to external application requirements (MOLLIE integration), nightly runs points to staging."
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/signup_features/23_ideal_signup_box_flow.feature:92",
+      "name": "905 dry food ideal expired - NE signup ideal",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:93",
+          "match": {
+            "arguments": [
+              {
+                "value": "Netherlands"
+              }
+            ],
+            "location": "features/steps/discovery_home_page_steps.py:8"
+          },
+          "name": "on homepage and \"Netherlands\" country",
+          "result": {
+            "duration": 30.91800093650818,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:94",
+          "match": {
+            "arguments": [
+              {
+                "value": "idealexpired"
+              },
+              {
+                "value": "2"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "Beagle"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:12"
+          },
+          "name": "Add \"idealexpired\" information age \"2\" years \"5\" months male neutered purebreed \"Beagle\"",
+          "result": {
+            "duration": 19.90908122062683,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:95",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 11.67894983291626,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:96",
+          "match": {
+            "arguments": [
+              {
+                "value": "15"
+              }
+            ],
+            "location": "features/steps/signup_weight_page_steps.py:23"
+          },
+          "name": "Status no working dog weight \"15\"",
+          "result": {
+            "duration": 29.9578959941864,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:97",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:151"
+          },
+          "name": "Health Ingredients no issues",
+          "result": {
+            "duration": 9.728885889053345,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:98",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_diet_page_steps.py:24"
+          },
+          "name": "Current diet dry food international",
+          "result": {
+            "duration": 0.7959721088409424,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:99",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:8"
+          },
+          "name": "Current food select no brand",
+          "result": {
+            "duration": 0.7025539875030518,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:100",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:16"
+          },
+          "name": "Select flavour anything",
+          "result": {
+            "duration": 6.422789096832275,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:101",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_email_page_steps.py:64"
+          },
+          "name": "Complete email page",
+          "result": {
+            "duration": 44.61473774909973,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:102",
+          "match": {
+            "arguments": [
+              {
+                "value": "Netherlands"
+              }
+            ],
+            "location": "features/steps/signup_project_box_steps.py:282"
+          },
+          "name": "select dry food only order while dry food only is in current diet in \"Netherlands\"",
+          "result": {
+            "duration": 7.231683254241943,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:103",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_project_box_steps.py:74"
+          },
+          "name": "Select no treats Project Box",
+          "result": {
+            "duration": 31.734766721725464,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:104",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_pricing_page_steps.py:102"
+          },
+          "name": "Pricing continue with ideal",
+          "result": {
+            "duration": 33.10458588600159,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:105",
+          "match": {
+            "arguments": [
+              {
+                "value": "Netherlands"
+              }
+            ],
+            "location": "features/steps/signup_checkout_address_page_steps.py:133"
+          },
+          "name": "Checkout international address for \"Netherlands\" future delivery date",
+          "result": {
+            "duration": 58.64452934265137,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:106",
+          "match": {
+            "arguments": [
+              {
+                "value": "Expired"
+              }
+            ],
+            "location": "features/steps/signup_ideal_test_page_steps.py:9"
+          },
+          "name": "Checkout with \"Expired\" ideal payment details",
+          "result": {
+            "duration": 36.07354497909546,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/signup_features/23_ideal_signup_box_flow.feature:107",
+          "match": {
+            "arguments": [
+              {
+                "value": "Ga verder naar mijn dashboard"
+              }
+            ],
+            "location": "features/steps/loggedin_dashboard_steps.py:29"
+          },
+          "name": "Signup completed and dutch \"Ga verder naar mijn dashboard\" display",
+          "result": {
+            "duration": 0.1874861717224121,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "nightly_chrome_six",
+        "netherlands_ideal_expired",
+        "roe"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/signup_features/23_ideal_signup_box_flow.feature:3",
+  "name": "iDEAL All Payment Options Signup",
+  "status": "passed",
+  "tags": [
+    "growth_regression",
+    "nethl_ideal"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:7",
+      "name": "00100 dry food stripe RAF promo - UK signup",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "value": "United Kingdom"
+              }
+            ],
+            "location": "features/steps/signup_project_box_steps.py:13"
+          },
+          "name": "on homepage and \"United Kingdom\" country pb",
+          "result": {
+            "duration": 12.365565061569214,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "value": "MILENFD7"
+              }
+            ],
+            "location": "features/steps/signup_project_box_steps.py:249"
+          },
+          "name": "Add promo \"MILENFD7\"",
+          "result": {
+            "duration": 5.492217063903809,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "value": "dogone"
+              },
+              {
+                "value": "2"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "Giant"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:143"
+          },
+          "name": "Add \"dogone\" information age \"2\" years \"5\" months male neutered unknownbreed \"Giant\"",
+          "result": {
+            "duration": 15.232051372528076,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 11.54246997833252,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_weight_page_steps.py:9"
+          },
+          "name": "Status no working dog weight estimate",
+          "result": {
+            "duration": 4.584662914276123,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:162"
+          },
+          "name": "Health Ingredients no issues UK",
+          "result": {
+            "duration": 13.514355897903442,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_diet_page_steps.py:31"
+          },
+          "name": "Current diet dry food",
+          "result": {
+            "duration": 1.4549219608306885,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:15",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:8"
+          },
+          "name": "Current food select no brand",
+          "result": {
+            "duration": 1.7055628299713135,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:16",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:16"
+          },
+          "name": "Select flavour anything",
+          "result": {
+            "duration": 6.547291278839111,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:17",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_email_page_steps.py:64"
+          },
+          "name": "Complete email page",
+          "result": {
+            "duration": 44.60043478012085,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:18",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_project_box_steps.py:30"
+          },
+          "name": "select dry food only Project Box",
+          "result": {
+            "duration": 17.164794921875,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:19",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_project_box_steps.py:74"
+          },
+          "name": "Select no treats Project Box",
+          "result": {
+            "duration": 30.423824071884155,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:20",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_pricing_page_steps.py:93"
+          },
+          "name": "Pricing continue with card",
+          "result": {
+            "duration": 230.4442319869995,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"features/steps/signup_pricing_page_steps.py\", line 98, in _",
+              "    pricing.card_option.click()",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/features/page_objects/base_page_object.py\", line 236, in __getattr__",
+              "    return self.find_element(*self.locator_dictionary[what])",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/features/page_objects/base_page_object.py\", line 112, in find_element",
+              "    return wait.until(EC.presence_of_element_located((by, value)))",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 95, in until",
+              "    raise TimeoutException(message, screen, stacktrace)",
+              "selenium.common.exceptions.TimeoutException: Message: ",
+              "Stacktrace:",
+              "0   chromedriver                        0x0000000104f904dc chromedriver + 4162780",
+              "1   chromedriver                        0x0000000104f88664 chromedriver + 4130404",
+              "2   chromedriver                        0x0000000104bdfbc0 chromedriver + 293824",
+              "3   chromedriver                        0x0000000104c26040 chromedriver + 581696",
+              "4   chromedriver                        0x0000000104c65ab0 chromedriver + 842416",
+              "5   chromedriver                        0x0000000104c196bc chromedriver + 530108",
+              "6   chromedriver                        0x0000000104c1a930 chromedriver + 534832",
+              "7   chromedriver                        0x0000000104f55e08 chromedriver + 3923464",
+              "8   chromedriver                        0x0000000104f5a3dc chromedriver + 3941340",
+              "9   chromedriver                        0x0000000104f3e038 chromedriver + 3825720",
+              "10  chromedriver                        0x0000000104f5af3c chromedriver + 3944252",
+              "11  chromedriver                        0x0000000104f306f4 chromedriver + 3770100",
+              "12  chromedriver                        0x0000000104f77980 chromedriver + 4061568",
+              "13  chromedriver                        0x0000000104f77af8 chromedriver + 4061944",
+              "14  chromedriver                        0x0000000104f882e4 chromedriver + 4129508",
+              "15  libsystem_pthread.dylib             0x00000001b88d026c _pthread_start + 148",
+              "16  libsystem_pthread.dylib             0x00000001b88cb08c thread_start + 8",
+              "",
+              "",
+              "Captured stdout:",
+              "Success Element target found:try_now",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:country",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:country_submit",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:add_promo",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:input_code",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:input_code",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:apply_promo",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:name_input",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:male_input",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:male_input",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:neutered_yes",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:years_input",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:months_input",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:dog_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:breed_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:unknown_breed",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:unknown_breed_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:motivation_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:gain_weight",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:motivation_info_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:weight_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:estimate_weight_link",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:estimate_weight_button",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:activity_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:health_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:exclusions_form_uk",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:no_exclusions_uk",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:current_diet_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:current_dryfood",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:current_food_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:no_dryfood_brand",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:flavours_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:flavours_anything",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:email_form",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:email_input",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:opt_in_no",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:opt_in_yes",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:opt_in_no",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:add_to_box_button",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:essentials_card",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:essentials_card",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:essentials_card",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Success Element target found:go_to_box_button",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "Element with 'Oops' or 'OEPS!' not found",
+              "",
+              "Captured stderr:",
+              "Traceback (most recent call last):",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/features/page_objects/base_page_object.py\", line 187, in __getattr__",
+              "    WebDriverWait(self.browser, self.timeout).until(",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 95, in until",
+              "    raise TimeoutException(message, screen, stacktrace)",
+              "selenium.common.exceptions.TimeoutException: Message: ",
+              "Stacktrace:",
+              "0   chromedriver                        0x0000000104f904dc chromedriver + 4162780",
+              "1   chromedriver                        0x0000000104f88664 chromedriver + 4130404",
+              "2   chromedriver                        0x0000000104bdfbc0 chromedriver + 293824",
+              "3   chromedriver                        0x0000000104c26040 chromedriver + 581696",
+              "4   chromedriver                        0x0000000104c65ab0 chromedriver + 842416",
+              "5   chromedriver                        0x0000000104c196bc chromedriver + 530108",
+              "6   chromedriver                        0x0000000104c1a930 chromedriver + 534832",
+              "7   chromedriver                        0x0000000104f55e08 chromedriver + 3923464",
+              "8   chromedriver                        0x0000000104f5a3dc chromedriver + 3941340",
+              "9   chromedriver                        0x0000000104f3e038 chromedriver + 3825720",
+              "10  chromedriver                        0x0000000104f5af3c chromedriver + 3944252",
+              "11  chromedriver                        0x0000000104f306f4 chromedriver + 3770100",
+              "12  chromedriver                        0x0000000104f77980 chromedriver + 4061568",
+              "13  chromedriver                        0x0000000104f77af8 chromedriver + 4061944",
+              "14  chromedriver                        0x0000000104f882e4 chromedriver + 4129508",
+              "15  libsystem_pthread.dylib             0x00000001b88d026c _pthread_start + 148",
+              "16  libsystem_pthread.dylib             0x00000001b88cb08c thread_start + 8",
+              "",
+              "Traceback (most recent call last):",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/features/page_objects/base_page_object.py\", line 207, in __getattr__",
+              "    WebDriverWait(self.browser, self.timeout).until(",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 95, in until",
+              "    raise TimeoutException(message, screen, stacktrace)",
+              "selenium.common.exceptions.TimeoutException: Message: ",
+              "Stacktrace:",
+              "0   chromedriver                        0x0000000104f904dc chromedriver + 4162780",
+              "1   chromedriver                        0x0000000104f88664 chromedriver + 4130404",
+              "2   chromedriver                        0x0000000104bdfbc0 chromedriver + 293824",
+              "3   chromedriver                        0x0000000104c26040 chromedriver + 581696",
+              "4   chromedriver                        0x0000000104c65ab0 chromedriver + 842416",
+              "5   chromedriver                        0x0000000104c196bc chromedriver + 530108",
+              "6   chromedriver                        0x0000000104c1a930 chromedriver + 534832",
+              "7   chromedriver                        0x0000000104f55e08 chromedriver + 3923464",
+              "8   chromedriver                        0x0000000104f5a3dc chromedriver + 3941340",
+              "9   chromedriver                        0x0000000104f3e038 chromedriver + 3825720",
+              "10  chromedriver                        0x0000000104f5af3c chromedriver + 3944252",
+              "11  chromedriver                        0x0000000104f306f4 chromedriver + 3770100",
+              "12  chromedriver                        0x0000000104f77980 chromedriver + 4061568",
+              "13  chromedriver                        0x0000000104f77af8 chromedriver + 4061944",
+              "14  chromedriver                        0x0000000104f882e4 chromedriver + 4129508",
+              "15  libsystem_pthread.dylib             0x00000001b88d026c _pthread_start + 148",
+              "16  libsystem_pthread.dylib             0x00000001b88cb08c thread_start + 8",
+              "",
+              "Traceback (most recent call last):",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/features/page_objects/base_page_object.py\", line 214, in __getattr__",
+              "    WebDriverWait(self.browser, self.timeout).until(",
+              "  File \"/Users/lesak/Documents/Jan_2024_branch/selenium/venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py\", line 95, in until",
+              "    raise TimeoutException(message, screen, stacktrace)",
+              "selenium.common.exceptions.TimeoutException: Message: ",
+              "Stacktrace:",
+              "0   chromedriver                        0x0000000104f904dc chromedriver + 4162780",
+              "1   chromedriver                        0x0000000104f88664 chromedriver + 4130404",
+              "2   chromedriver                        0x0000000104bdfbc0 chromedriver + 293824",
+              "3   chromedriver                        0x0000000104c26040 chromedriver + 581696",
+              "4   chromedriver                        0x0000000104c65ab0 chromedriver + 842416",
+              "5   chromedriver                        0x0000000104c196bc chromedriver + 530108",
+              "6   chromedriver                        0x0000000104c1a930 chromedriver + 534832",
+              "7   chromedriver                        0x0000000104f55e08 chromedriver + 3923464",
+              "8   chromedriver                        0x0000000104f5a3dc chromedriver + 3941340",
+              "9   chromedriver                        0x0000000104f3e038 chromedriver + 3825720",
+              "10  chromedriver                        0x0000000104f5af3c chromedriver + 3944252",
+              "11  chromedriver                        0x0000000104f306f4 chromedriver + 3770100",
+              "12  chromedriver                        0x0000000104f77980 chromedriver + 4061568",
+              "13  chromedriver                        0x0000000104f77af8 chromedriver + 4061944",
+              "14  chromedriver                        0x0000000104f882e4 chromedriver + 4129508",
+              "15  libsystem_pthread.dylib             0x00000001b88d026c _pthread_start + 148",
+              "16  libsystem_pthread.dylib             0x00000001b88cb08c thread_start + 8"
+            ],
+            "status": "failed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:21",
+          "name": "Checkout address postcode \"TW92SS\" future delivery date",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:22",
+          "name": "Checkout with stripe payment details",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:23",
+          "name": "Signup completed and \"Continue to my dashboard\" display",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "uk_stripe_raf_promo",
+        "nightly_chrome_six"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/signup_features/2_uk_signup_box_flow_promos.feature:3",
+  "name": "UK signup flow box with promos",
+  "status": "failed",
+  "tags": [
+    "growth_regression",
+    "uk_stripe_promo"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/signup_features/31_ireland_signup_box_flow.feature:7",
+      "name": "01 dry food stripe - IR signup",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "value": "Ireland"
+              }
+            ],
+            "location": "features/steps/discovery_home_page_steps.py:8"
+          },
+          "name": "on homepage and \"Ireland\" country",
+          "result": {
+            "duration": 30.788980960845947,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "value": "dogone"
+              },
+              {
+                "value": "2"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "Beagle"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:12"
+          },
+          "name": "Add \"dogone\" information age \"2\" years \"5\" months male neutered purebreed \"Beagle\"",
+          "result": {
+            "duration": 19.387510061264038,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 11.50167202949524,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "value": "15"
+              }
+            ],
+            "location": "features/steps/signup_weight_page_steps.py:23"
+          },
+          "name": "Status no working dog weight \"15\"",
+          "result": {
+            "duration": 22.666560173034668,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:151"
+          },
+          "name": "Health Ingredients no issues",
+          "result": {
+            "duration": 9.60729694366455,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_diet_page_steps.py:24"
+          },
+          "name": "Current diet dry food international",
+          "result": {
+            "duration": 0.8022208213806152,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:16"
+          },
+          "name": "Select flavour anything",
+          "result": {
+            "duration": 5.723144054412842,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:15",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_email_page_steps.py:64"
+          },
+          "name": "Complete email page",
+          "result": {
+            "duration": 44.598315954208374,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:16",
+          "match": {
+            "arguments": [
+              {
+                "value": "Ireland"
+              }
+            ],
+            "location": "features/steps/signup_project_box_steps.py:282"
+          },
+          "name": "select dry food only order while dry food only is in current diet in \"Ireland\"",
+          "result": {
+            "duration": 7.2450268268585205,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:17",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_project_box_steps.py:74"
+          },
+          "name": "Select no treats Project Box",
+          "result": {
+            "duration": 30.361024856567383,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:18",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_pricing_page_steps.py:93"
+          },
+          "name": "Pricing continue with card",
+          "result": {
+            "duration": 10.326092958450317,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:19",
+          "match": {
+            "arguments": [
+              {
+                "value": "Ireland"
+              }
+            ],
+            "location": "features/steps/signup_checkout_address_page_steps.py:133"
+          },
+          "name": "Checkout international address for \"Ireland\" future delivery date",
+          "result": {
+            "duration": 61.02097415924072,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:20",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_payment_page_steps.py:9"
+          },
+          "name": "Checkout with stripe payment details",
+          "result": {
+            "duration": 117.16892886161804,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/signup_features/31_ireland_signup_box_flow.feature:21",
+          "match": {
+            "arguments": [
+              {
+                "value": "Continue to my dashboard"
+              }
+            ],
+            "location": "features/steps/loggedin_dashboard_steps.py:19"
+          },
+          "name": "Signup completed and \"Continue to my dashboard\" display",
+          "result": {
+            "duration": 10.278868913650513,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ireland_stripe",
+        "nightly_chrome_six"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/signup_features/31_ireland_signup_box_flow.feature:3",
+  "name": "Ireland Signup box flow v2",
+  "status": "passed",
+  "tags": [
+    "growth_regression",
+    "ireland_checkout"
+  ]
+}
+]

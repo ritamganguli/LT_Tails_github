@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+pytest = "*"
+pytest-html = "*"
+pytest-rerunfailures = "*"
+pytest-sugar = "*"
+pytest-xdist = "*"
+requests = "*"
+boto3 = "*"
+furl = "*"
+behave = "*"
+colorama = "*"
+pyyaml = "*"
+webdriver-manager = "*"
+python-dateutil = "*"
+datetime = "*"
+pandas = "*"
+openpyxl = "*"
+behave2cucumber = "*"
+axe-selenium-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

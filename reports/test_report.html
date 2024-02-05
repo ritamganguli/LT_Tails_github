@@ -1,0 +1,693 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature:9",
+      "name": "001 profile update weight - UK logged in",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "value": "United Kingdom"
+              },
+              {
+                "value": "active"
+              },
+              {
+                "value": "1"
+              }
+            ],
+            "location": "features/steps/loggedin_login_steps.py:14"
+          },
+          "name": "Logged in to \"United Kingdom\" customer account \"active\" and store \"1\"",
+          "result": {
+            "duration": 29.38706684112549,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/loggedin_profile_steps.py:13"
+          },
+          "name": "Navigate to pet profile page",
+          "result": {
+            "duration": 7.074138164520264,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/loggedin_profile_steps.py:51"
+          },
+          "name": "Update weight and condition",
+          "result": {
+            "duration": 9.684895992279053,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/loggedin_profile_steps.py:36"
+          },
+          "name": "Confirm feeding plan changes",
+          "result": {
+            "duration": 17.89796805381775,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature:14",
+          "match": {
+            "arguments": [
+              {
+                "value": "profile and feeding plan have been updated"
+              }
+            ],
+            "location": "features/steps/loggedin_profile_steps.py:24"
+          },
+          "name": "Successful update notification \"profile and feeding plan have been updated\" is displayed on profile page",
+          "result": {
+            "duration": 0.0329737663269043,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "nightly_iphone_four",
+        "nightly_android_four",
+        "profile_weight"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature:3",
+  "name": "UK - Update pet profiles",
+  "status": "passed",
+  "tags": [
+    "owner_regression",
+    "profile_pages",
+    "owner"
+  ]
+},
+
+{
+  "description": [
+    "This feature will contain all scenarios for updating payment method for UK store"
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:10",
+      "name": "0001 payment switching existing method to card payment - UK logged in",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "value": "United Kingdom"
+              },
+              {
+                "value": "active"
+              },
+              {
+                "value": "1"
+              }
+            ],
+            "location": "features/steps/loggedin_login_steps.py:14"
+          },
+          "name": "Logged in to \"United Kingdom\" customer account \"active\" and store \"1\"",
+          "result": {
+            "duration": 28.34583282470703,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:12",
+          "match": {
+            "arguments": [
+              {
+                "value": "Account settings"
+              }
+            ],
+            "location": "features/steps/loggedin_account_steps.py:14"
+          },
+          "name": "Select Account page and confirm \"Account settings\" displays",
+          "result": {
+            "duration": 34.41638708114624,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:13",
+          "match": {
+            "arguments": [
+              {
+                "value": "Stripe"
+              }
+            ],
+            "location": "features/steps/loggedin_update_payment_steps.py:9"
+          },
+          "name": "Select payment method \"Stripe\"",
+          "result": {
+            "duration": 12.349110126495361,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/loggedin_update_payment_steps.py:56"
+          },
+          "name": "Add and submit stripe payment details",
+          "result": {
+            "duration": 73.05916690826416,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "When",
+          "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:16",
+          "match": {
+            "arguments": [
+              {
+                "value": "Updated payment method to credit/debit card"
+              }
+            ],
+            "location": "features/steps/loggedin_update_payment_steps.py:89"
+          },
+          "name": "Banner \"Updated payment method to credit/debit card\" is showing on account settings page",
+          "result": {
+            "duration": 5.0017499923706055,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:17",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/loggedin_update_payment_steps.py:99"
+          },
+          "name": "Verify card details are updated on account settings page",
+          "result": {
+            "duration": 0.09514307975769043,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "nightly_android_four",
+        "loggedin_account_payment_card_uk_payment0001"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature:4",
+  "name": "UK - Update payment method feature",
+  "status": "passed",
+  "tags": [
+    "owner_regression",
+    "update_payment",
+    "owner"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:57",
+      "name": "1004 pregnant nursing - UK signup",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:58",
+          "match": {
+            "arguments": [
+              {
+                "value": "United Kingdom"
+              }
+            ],
+            "location": "features/steps/discovery_home_page_steps.py:8"
+          },
+          "name": "on homepage and \"United Kingdom\" country",
+          "result": {
+            "duration": 30.477415084838867,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:59",
+          "match": {
+            "arguments": [
+              {
+                "value": "pregnant"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:381"
+          },
+          "name": "one dog female not spayed \"pregnant\"",
+          "result": {
+            "duration": 12.764799118041992,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:60",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_my_dog_page_steps.py:405"
+          },
+          "name": "is pregnant",
+          "result": {
+            "duration": 4.169043064117432,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:61",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_my_dog_page_steps.py:340"
+          },
+          "name": "alert display for no unique recipes for pregnant dogs",
+          "result": {
+            "duration": 0.0719149112701416,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "uksmoke_pregnant",
+        "nightly_android_four"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:66",
+      "name": "1005 two dogs - UK signup",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:67",
+          "match": {
+            "arguments": [
+              {
+                "value": "United Kingdom"
+              }
+            ],
+            "location": "features/steps/discovery_home_page_steps.py:8"
+          },
+          "name": "on homepage and \"United Kingdom\" country",
+          "result": {
+            "duration": 30.54317593574524,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:68",
+          "match": {
+            "arguments": [
+              {
+                "value": "dogone"
+              },
+              {
+                "value": "2"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "Beagle"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:12"
+          },
+          "name": "Add \"dogone\" information age \"2\" years \"5\" months male neutered purebreed \"Beagle\"",
+          "result": {
+            "duration": 19.555564165115356,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:69",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 11.475852727890015,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:70",
+          "match": {
+            "arguments": [
+              {
+                "value": "15"
+              }
+            ],
+            "location": "features/steps/signup_weight_page_steps.py:23"
+          },
+          "name": "Status no working dog weight \"15\"",
+          "result": {
+            "duration": 22.848837852478027,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:71",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:162"
+          },
+          "name": "Health Ingredients no issues UK",
+          "result": {
+            "duration": 13.27030611038208,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:72",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_diet_page_steps.py:39"
+          },
+          "name": "Current diet select dry wet food and treats other food",
+          "result": {
+            "duration": 1.6216351985931396,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:73",
+          "match": {
+            "arguments": [
+              {
+                "value": "Purina"
+              },
+              {
+                "value": "Mini can (156g)"
+              }
+            ],
+            "location": "features/steps/signup_current_food_page_steps.py:84"
+          },
+          "name": "Current food dry \"Purina\" selected wet \"Mini can (156g)\"",
+          "result": {
+            "duration": 6.7202959060668945,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:74",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:16"
+          },
+          "name": "Select flavour anything",
+          "result": {
+            "duration": 7.834625005722046,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:75",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_email_page_steps.py:64"
+          },
+          "name": "Complete email page",
+          "result": {
+            "duration": 44.53004813194275,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:76",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_project_box_steps.py:334"
+          },
+          "name": "select dry food only Project Box and add another dog",
+          "result": {
+            "duration": 35.71588182449341,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:77",
+          "match": {
+            "arguments": [
+              {
+                "value": "dogtwo"
+              },
+              {
+                "value": "3"
+              },
+              {
+                "value": "5"
+              },
+              {
+                "value": "labradoodle"
+              }
+            ],
+            "location": "features/steps/signup_my_dog_page_steps.py:12"
+          },
+          "name": "Add \"dogtwo\" information age \"3\" years \"5\" months male neutered purebreed \"labradoodle\"",
+          "result": {
+            "duration": 21.58655071258545,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "When",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:78",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_motivation_page_steps.py:8"
+          },
+          "name": "Select gain weight motivation for dog food",
+          "result": {
+            "duration": 11.613526821136475,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:79",
+          "match": {
+            "arguments": [
+              {
+                "value": "15"
+              }
+            ],
+            "location": "features/steps/signup_weight_page_steps.py:23"
+          },
+          "name": "Status no working dog weight \"15\"",
+          "result": {
+            "duration": 22.75260281562805,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:80",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_health_ingredients_page_steps.py:162"
+          },
+          "name": "Health Ingredients no issues UK",
+          "result": {
+            "duration": 13.28042221069336,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:81",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_diet_page_steps.py:39"
+          },
+          "name": "Current diet select dry wet food and treats other food",
+          "result": {
+            "duration": 1.9993250370025635,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:82",
+          "match": {
+            "arguments": [
+              {
+                "value": "Purina"
+              },
+              {
+                "value": "Mini can (156g)"
+              }
+            ],
+            "location": "features/steps/signup_current_food_page_steps.py:84"
+          },
+          "name": "Current food dry \"Purina\" selected wet \"Mini can (156g)\"",
+          "result": {
+            "duration": 6.36789608001709,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:83",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_current_food_page_steps.py:16"
+          },
+          "name": "Select flavour anything",
+          "result": {
+            "duration": 6.968061208724976,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:84",
+          "match": {
+            "arguments": [
+              {
+                "value": "\"United Kingdom\""
+              }
+            ],
+            "location": "features/steps/signup_project_box_steps.py:39"
+          },
+          "name": "select dry and wet Project Box in \"United Kingdom\"",
+          "result": {
+            "duration": 44.653558015823364,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:85",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/signup_project_box_steps.py:74"
+          },
+          "name": "Select no treats Project Box",
+          "result": {
+            "duration": 30.421018838882446,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:86",
+          "match": {
+            "arguments": [
+              {
+                "value": "Dogtwo"
+              }
+            ],
+            "location": "features/steps/signup_pricing_page_steps.py:85"
+          },
+          "name": "Pricing and pet page for \"Dogtwo\"",
+          "result": {
+            "duration": 22.216488122940063,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "nightly_iphone_one",
+        "nightly_android_four",
+        "uksmoke_twodogs"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature:3",
+  "name": "Sign up smoke tests",
+  "status": "passed",
+  "tags": [
+    "growth_regression",
+    "uk_smoke"
+  ]
+}
+]

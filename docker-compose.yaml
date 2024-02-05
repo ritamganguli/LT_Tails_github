@@ -1,0 +1,49 @@
+services:
+  selenium-standalone-chrome:
+    image: seleniarm/standalone-chromium:4.10
+    ports:
+      - 4444:4444
+    shm_size: "2g"
+    healthcheck:
+      test: curl -s -o /dev/null -I -w "%{http_code}" http://localhost:4444/wd/hub
+      interval: 10s
+    profiles:
+      - local
+
+  selenium:
+    build: .
+    environment:
+      - TEST_URL=https://web.tails-nonprod.com
+      - SELENIUM_REMOTE_URL=http://selenium-standalone-chrome:4444/wd/hub
+    volumes:
+      - .:/home/app
+    profiles:
+      - local
+    depends_on:
+      selenium-standalone-chrome:
+        condition: service_healthy
+
+  tunnel:
+    image: lambdatest/tunnel
+    command: --user ${CLOUD_USER} --key ${CLOUD_KEY} --tunnelName grid
+    profiles:
+      - cloud
+
+  selenium-cloud:
+    build: .
+    environment:
+      TEST_URL: https://web.tails-nonprod.com
+      SELENIUM_REMOTE_URL: https://${CLOUD_USER}:${CLOUD_KEY}@hub.lambdatest.com/wd/hub
+      CAPABILITIES: >
+        {
+            "platform": "Windows 10",
+            "browserName": "Chrome",
+            "resolution": "1280x1024",
+            "tunnel": "true"
+        }
+    volumes:
+      - .:/home/app
+    depends_on:
+      - tunnel
+    profiles:
+      - cloud

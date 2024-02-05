@@ -1,0 +1,64 @@
+{"level":"info","message":"Snooper version 1.21.0","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:57 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:57 GMT"}
+{"level":"info","message":"Snooper version 1.21.0","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/accessibility_features/accessibility_nonprod.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/accessibility_features/accessibility_prod.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/lighthouse_features/lighthouse__uk_prod.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/lighthouse_features/lighthouse_uk_nonprod.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/all_stores_logged_in/18_all_stores_dss_check.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/all_stores_logged_in/19_all_stores_raf_link_check.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/de_logged_in/25_de_manage_food_subscriptions.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/de_logged_in/de_updating_payment_details.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/fr_logged_in/24_fr_manage_food_subscriptions.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/fr_logged_in/fr_updating_payment_details.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/10_gb_manage_delivery_details.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/11_gb_manage_feeding_plan.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/12_gb_manage_flea_tick_worm_subscriptions.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/13_gb_manage_food_subscriptions.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/14_gb_manage_pet_profile.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/16_gb_manage_user_account.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/17_gb_updating_payment_details.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/32_gb_manage_box_products.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/33_gb_add_wet_food.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/7_gb_add_dog.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/8_gb_add_wftu.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/logged_in_features/gb_logged_in/9_gb_manage_delivery_dates.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/negative_tests_error_handling_features/5_uk_error_handling.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/negative_tests_error_handling_features/6_signup_prod_bugs.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/npd_features/34_npd_shop.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/npd_features/35_npd_signup.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/1_pipeline_uk_stripe.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/2_pipeline_uk_man_address_stripe.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/3_pipeline_fr_stripe.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/4_pipeline_de_stripe.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/5_pipeline_de_gocardless.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/6_pipeline_uk_frontyard.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/7_pipeline_dss_data.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/pipeline_features/8_pipeline_uk_dashboard.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/prod_signup_features/prod_signup_box_flow.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/1_uk_signup_box_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/1_uk_signup_box_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/2_uk_signup_box_flow_promos.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/20_france_signup_box_flow_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/20_france_signup_box_flow_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/21_germany_signup_box_flow_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/21_germany_signup_box_flow_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/22_netherlands_signup_box_flow_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/22_netherlands_signup_box_flow_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/23_ideal_signup_box_flow.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/27_belgium_signup_box_flow_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/27_belgium_signup_box_flow_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/28_austria_signup_box_flow_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/28_austria_signup_box_flow_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/29_sweden_signup_box_flow_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/29_sweden_signup_box_flow_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/30_denmark_signup_box_flow_file_one.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/30_denmark_signup_box_flow_file_two.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/signup_features/31_ireland_signup_box_flow.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Extracting features from file features/smoke_tests_signup_features/4_smoke_tests_uk_signup.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"error","message":"Not a valid file: features/logged_in_features/gb_logged_in/33_gb_add_wet_food.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"error","message":"Not a valid file: features/logged_in_features/gb_logged_in/8_gb_add_wftu.feature","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Mon, 05 Feb 2024 18:12:58 GMT"}
